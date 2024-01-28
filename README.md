@@ -15,6 +15,7 @@
   - [ ] Form (input, validation)
   - [ ] API Integration
   - Hands-on Project
+    - Git (version control)
     - TBA
 - Django
   - TBA
