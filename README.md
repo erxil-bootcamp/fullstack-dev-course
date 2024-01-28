@@ -3,7 +3,7 @@
 - React
   - [ ] Whats is Javascript?
   - [ ] Install [NodeJS](https://nodejs.org/en)
-  - [ ] Javascript (Variables, Data types, Statements, Loops)
+  - [ ] Javascript (Variables, Data types, Statements, Loops, functions)
   - [ ] Setup React
   - [ ] What is package.json?
   - [ ] React Components (JSX, [Atomic Design](https://medium.com/@janelle.wg/atomic-design-pattern-how-to-structure-your-react-application-2bb4d9ca5f97))
