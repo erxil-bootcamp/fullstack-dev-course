@@ -1,4 +1,4 @@
-# Full Stack Development Course Beginner (React | Django)
+# Full Stack Development  Beginner Course (React | Django)
 
 - React
   - [ ] Whats is Javascript?
