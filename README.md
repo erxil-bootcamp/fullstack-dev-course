@@ -6,7 +6,7 @@
   - [ ] Javascript (Variables, Data types, Statements, Loops)
   - [ ] Setup React
   - [ ] What is package.json?
-  - [ ] React Components (JSX, Atomic Design)
+  - [ ] React Components (JSX, [Atomic Design](https://medium.com/@janelle.wg/atomic-design-pattern-how-to-structure-your-react-application-2bb4d9ca5f97))
   - [ ] CSS (tailwindCSS)
   - [ ] Props
   - [ ] Hooks
