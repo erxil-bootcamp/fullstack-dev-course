@@ -1,8 +1,8 @@
 # Full Stack Development  Beginner Course (React | Django)
 
 - React
-  - [ ] Whats is Javascript?
-  - [ ] Install [NodeJS](https://nodejs.org/en)
+  - [x] Whats is Javascript?
+  - [X] Install [NodeJS](https://nodejs.org/en)
   - [ ] Javascript (Variables, Data types, Statements, Loops, functions)
   - [ ] Setup React
   - [ ] What is package.json?
