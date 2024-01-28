@@ -3,7 +3,7 @@
 - React
   - [ ] Whats is Javascript?
   - [ ] Javascript (Variables, Data types, Statements, Loops)
-  - [ ] Setup React (Requirement: NodeJS)
+  - [ ] Setup React (Requirement: [NodeJS](https://nodejs.org/en))
   - [ ] React Components (JSX, Atomic Design)
   - [ ] Props
   - [ ] Hooks
