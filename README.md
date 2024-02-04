@@ -6,9 +6,9 @@
   - [x] Javascript (Variables, Data types, Statements, Loops, functions)
   - [x] Setup React
   - [x] What is package.json?
-  - [ ] CSS (tailwindCSS)
-  - [ ] React Components (JSX, [Atomic Design](https://medium.com/@janelle.wg/atomic-design-pattern-how-to-structure-your-react-application-2bb4d9ca5f97))
-  - [ ] Props
+  - [x] CSS (tailwindCSS)
+  - [x] React Components (JSX, [Atomic Design](https://medium.com/@janelle.wg/atomic-design-pattern-how-to-structure-your-react-application-2bb4d9ca5f97))
+  - [x] Props
   - [ ] Hooks
   - [ ] Conditional Rendering
   - [ ] List Rendering
