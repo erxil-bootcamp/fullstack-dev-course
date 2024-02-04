@@ -16,6 +16,8 @@
   - [ ] Routing
   - [ ] API Integration
 - Django
+  - [ ] Whats is Python?
+  - [ ] Install Pip (Download Manager)
   - TBA
 - Hands-on Project
   - Git (version control)
