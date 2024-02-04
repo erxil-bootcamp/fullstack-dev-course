@@ -2,12 +2,12 @@
 
 - React
   - [x] Whats is Javascript?
-  - [X] Install [NodeJS](https://nodejs.org/en)
-  - [X] Javascript (Variables, Data types, Statements, Loops, functions)
-  - [X] Setup React
-  - [X] What is package.json?
-  - [ ] React Components (JSX, [Atomic Design](https://medium.com/@janelle.wg/atomic-design-pattern-how-to-structure-your-react-application-2bb4d9ca5f97))
+  - [x] Install [NodeJS](https://nodejs.org/en)
+  - [x] Javascript (Variables, Data types, Statements, Loops, functions)
+  - [x] Setup React
+  - [x] What is package.json?
   - [ ] CSS (tailwindCSS)
+  - [ ] React Components (JSX, [Atomic Design](https://medium.com/@janelle.wg/atomic-design-pattern-how-to-structure-your-react-application-2bb4d9ca5f97))
   - [ ] Props
   - [ ] Hooks
   - [ ] Conditional Rendering
