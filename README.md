@@ -13,6 +13,7 @@
   - [ ] Conditional Rendering
   - [ ] List Rendering
   - [ ] Form (input, validation)
+  - [ ] Routing
   - [ ] API Integration
 - Django
   - TBA
