@@ -1,10 +1,12 @@
-import React from "react";
-
-const LabeledInput = ({ label = "Default Label" }) => {
+const LabeledInput = ({ label = "Default Label", type = "text" }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex gap-1 flex-col">
       <label>{label}</label>
-      <input className="bg-gray-300 border" />
+      <input
+        className="border border-gray-400 focus:outline focus:outline-blue-500  px-5 py-1"
+        placeholder={label}
+        type={type}
+      />
     </div>
   );
 };
