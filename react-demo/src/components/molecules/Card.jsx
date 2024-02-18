@@ -1,5 +1,5 @@
-import React, { useEffect, useMemo, useState } from "react";
-import Button from "../atoms/Button";
+import { Button } from "@/atoms";
+import { useEffect, useMemo, useState } from "react";
 
 const Card = () => {
   const [firstName, setFirstName] = useState("");

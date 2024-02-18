@@ -1,23 +1,27 @@
-// import Button from "./components/atoms/Button";
-// import Card from "./components/molecules/Card";
-// import LabeledInput from "./components/molecules/LabeledInput";
-import LoginForm from "./components/molecules/LoginForm";
-import MainLayout from "./components/templates/MainLayout";
+import { MainLayout } from "@/templates";
+import {
+  Route,
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from "react-router-dom";
+// Routes
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import PageNotFound from "./pages/PageNotFound";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route element={<MainLayout />}>
+      <Route index element={<Home />} />
+      <Route path="login" element={<Login />} />
+      <Route path="*" element={<PageNotFound />} />
+    </Route>
+  )
+);
 
 function App() {
-  return (
-    <MainLayout>
-      {/* <div className="flex gap-3 p-4 h-fit">
-        <Button />
-        <LabeledInput label="Username" />
-        <LabeledInput label="Email" />
-        <Card />
-      </div> */}
-      <div className="h-[500px] grid place-items-center">
-        <LoginForm />
-      </div>
-    </MainLayout>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

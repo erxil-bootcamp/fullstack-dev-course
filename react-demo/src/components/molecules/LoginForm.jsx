@@ -1,15 +1,50 @@
-import React from "react";
-import LabeledInput from "./LabeledInput";
+import { Button } from "@/atoms";
+import { LabeledInput } from "@/molecules";
+import { useFormik } from "formik";
+import * as Yup from "yup";
 
 const LoginForm = () => {
+  const formik = useFormik({
+    enableReinitialize: true,
+    initialValues: {
+      email: "",
+      password: "",
+    },
+    validationSchema: Yup.object({
+      email: Yup.string()
+        .email("Email is invalid")
+        .required("Email is required"),
+      password: Yup.string().required("Password is required"),
+    }),
+    onSubmit: (params) => {
+      console.log(params);
+    },
+  });
+
   return (
-    <form className="w-[300px] flex flex-col gap-3 p-7 border rounded-md bg-white shadow-md">
+    <form
+      onSubmit={(event) => {
+        event.preventDefault();
+        formik.handleSubmit();
+        return false;
+      }}
+      className="w-[300px] flex flex-col gap-3 p-7 border rounded-md bg-white shadow-md"
+    >
       <h2 className="font-bold text-xl">Login</h2>
-      <LabeledInput label="email" />
-      <LabeledInput label="password" type="password" />
-      <button className="hover:bg-blue-700 px-5 py-1 bg-blue-500 text-white">
-        Login
-      </button>
+      <LabeledInput
+        error={formik.touched["email"] && formik.errors["email"]}
+        name="email"
+        label="Email"
+        onChange={formik.handleChange}
+      />
+      <LabeledInput
+        error={formik.touched["password"] && formik.errors["password"]}
+        name="password"
+        onChange={formik.handleChange}
+        label="Password"
+        type="password"
+      />
+      <Button>Login</Button>
     </form>
   );
 };
