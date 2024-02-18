@@ -12,8 +12,8 @@
   - [X] Hooks
   - [X] Conditional Rendering
   - [X] List Rendering
-  - [ ] Form (input, validation)
-  - [ ] Routing
+  - [X] Form (input, validation)
+  - [X] Routing
   - [ ] API Integration
 - Django
   - [ ] Whats is Python?
